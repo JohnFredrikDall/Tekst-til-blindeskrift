@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: green;
+    font-family: Arial;
+}
+
+.boks{
+    font-family: "Calibri Light";
+    font-size: 24px;
+    margin-left: 20px;
+}
+.top{
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+    text-align: center;
+    border: solid black 3px;
+    background: white;
+    border-radius: 5px;
+}
+a{
+    margin: 4em;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: "Calibri Light"
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
