@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,13 +44,34 @@
 </div>
 
 <div class="Contactus">
-    <a name="ContactUs"><h1 class="header"> Contact us</h1>
+    <a name="ContactUs"><h1 class="header"> Contact us</a></h1>
+    
+        <address>
+        <p><a class="email" href="mailto:eivindskandsen@hotmail.no"> Email Eivind Skandsen</a></p>
     <p>
-        email: eivindskandsen@hotmail.no
+        Adresse: Skogrygveien 17c
     </p>
-    <p>
-        addresse: Skogrygveien 17c
-    </p>
+        </address>
+
+        <div class="container-form">
+            <form action="submitted.html">
+                <label for="fnavn">First name</label>
+                <input type="text" id="fnavn" name="firstname" placeholder="Your first name..." />
+
+                <label for="enavn">Last name</label>
+                <input type="text" id="enavn" name="lastname" placeholder="Your last name..." />
+
+                <label for="email">Email-adress</label>
+                <input type="text" id="email" name="email-adress" placeholder="Your email-adress here..." />
+
+                <label for="tema">Subject</label>
+                <textarea id="tema" name="subject" placeholder="Write your inquiry here..."
+                          style="height:200px"></textarea>
+                <input type="submit" value="submit" />
+
+            </form>
+        </div>
+
 
 
 </div>
