@@ -6,6 +6,7 @@
 .header{
     color: green;
     font-family: Arial;
+    margin-top: 50px;
 }
 
 .boks{
@@ -20,22 +21,21 @@
 }
 
 .nav{
-    width: 100%;
-    text-align: center;
-    border: solid black 3px;
-    background: white;
-    border-radius: 5px;
+  position: fixed;
+  top: 0;
+  width: auto;
+  background-color: black;
+  padding: 10px;
 }
-a{
-    margin: 4em;
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-family: "Calibri Light"
+.nav a {
+  font-size: 29px;
+  text-decoration: none;
+  color: white;
+  padding:5px;
+
 }
-a:hover{
-    background-color: black;
-    color: white;
+.nav a:hover {
+  background: gray;
 }
 
 .BlindeBoksBilde{
@@ -58,4 +58,13 @@ a:hover{
 
 .Solution{
     text-align: center;
+}
+@media (max-width:500px){
+  .nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+}
 }
