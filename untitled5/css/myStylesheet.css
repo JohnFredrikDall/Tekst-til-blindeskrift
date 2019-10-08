@@ -41,3 +41,21 @@ a:hover{
 .BlindeBoksBilde{
     height: 400px;
 }
+
+.Bottom{
+    position: sticky;
+    bottom: 0;
+
+}
+
+.Contactus{
+    text-align: center;
+}
+
+.Problem{
+    text-align: center;
+}
+
+.Solution{
+    text-align: center;
+}
