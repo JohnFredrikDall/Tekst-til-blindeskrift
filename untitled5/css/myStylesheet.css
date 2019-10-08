@@ -6,7 +6,6 @@
 .header{
     color: green;
     font-family: Arial;
-    margin-top: 50px;
 }
 
 .boks{
@@ -16,6 +15,10 @@
     text-align: center;
 
 }
+.boks h1{
+  margin-top:  85px;
+}
+
 .top{
     width: 100%;
 }
