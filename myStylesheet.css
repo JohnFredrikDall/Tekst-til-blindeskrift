@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: green;
+    font-family: Arial;
+}
+
+.boks{
+    font-family: "Calibri Light";
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.boks h1{
+  margin-top:  85px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 30px;
+}
+.top{
+    width: 100%;
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  width: auto;
+  background-color: black;
+  padding: 10px;
+}
+.nav a {
+  font-size: 29px;
+  text-decoration: none;
+  color: white;
+  padding:5px;
+
+}
+.nav a:hover {
+  background: gray;
+}
+
+.BlindeBoksBilde{
+    height: 400px;
+}
+
+.Bottom{
+    position: sticky;
+    bottom: 0;
+
+}
+
+.Contactus{
+    text-align: center;
+}
+
+.Problem{
+    text-align: center;
+}
+
+.Solution{
+    text-align: center;
+}
+@media (max-width:500px){
+  .nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+}
+}
+.container-form {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+input[type=text], textarea {
+    resize: vertical;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding: 13px;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+input[type=submit] {
+    background-color: cornflowerblue;
+    padding: 10px, 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: Highlight;
+    }
