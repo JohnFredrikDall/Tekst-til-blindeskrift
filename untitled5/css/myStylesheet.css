@@ -4,14 +4,17 @@
 }
 
 .header{
-    color: green;
+    color: #1abc9c;
     font-family: Arial;
 }
 
 .boks{
     font-family: "Calibri Light";
-    font-size: 24px;
-    margin-left: 20px;
+    font-size: 5vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-bottom: 100px;
     text-align: center;
 
 }
@@ -28,6 +31,13 @@ p{
 .top{
     width: 100%;
 }
+.main-header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 5vw;
+}
 
 .nav{
   position: fixed;
@@ -37,7 +47,7 @@ p{
   padding: 10px;
 }
 .nav a {
-  font-size: 29px;
+    font-size: 5vw;
   text-decoration: none;
   color: white;
   padding:5px;
@@ -58,14 +68,32 @@ p{
 }
 
 .Contactus{
+    font-family: "Calibri Light";
+    font-size: 5vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-bottom: 100px;
     text-align: center;
 }
 
 .Problem{
+    font-family: "Calibri Light";
+    font-size: 5vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-bottom: 100px;
     text-align: center;
 }
 
 .Solution{
+    font-family: "Calibri Light";
+    font-size: 5vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-bottom: 20px;
     text-align: center;
 }
 @media (max-width:500px){
@@ -76,6 +104,32 @@ p{
   background-color: black;
   padding: 10px;
 }
+}
+
+@media (max-width:840px){
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px){
+    .boks{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Problem{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Solution{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Contactus{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
 }
 .container-form {
     border-radius: 5px;
@@ -105,3 +159,11 @@ input[type=submit] {
     input[type=submit]:hover {
         background-color: Highlight;
     }
+.forside-bilde{
+    background-image: url("../pics/blindeskriftmledningLowRes.jpg");
+    height: 300px;
+    width: 514px;
+    background-size: 100%;
+    margin-left: 20%;
+}
+
