@@ -6,13 +6,19 @@
 .header{
     color: #1abc9c;
     font-family: Arial;
+    margin-top: 0;
+}
+
+.img2{
+    width: 100%;
+
 }
 
 .boks{
     font-family: "Calibri Light";
     font-size: 2.5vw;
     margin-left: 20%;
-    margin-top: 20px;
+    margin-top: 0;
     margin-right: 20%;
     margin-bottom: 100px;
     text-align: center;
@@ -31,6 +37,7 @@
     background: #1abc9c;
     color: white;
     font-size: 2.5vw;
+    margin-bottom: 0;
 }
 
 .nav{
