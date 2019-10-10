@@ -10,7 +10,7 @@
 
 .boks{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -30,7 +30,7 @@
     text-align: center;
     background: #1abc9c;
     color: white;
-    font-size: 5vw;
+    font-size: 2.5vw;
 }
 
 .nav{
@@ -41,7 +41,7 @@
   padding: 10px;
 }
 .nav a {
-    font-size: 5vw;
+    font-size: 2.5vw;
   text-decoration: none;
   color: white;
   padding:5px;
@@ -63,7 +63,7 @@
 
 .Contactus{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -73,7 +73,7 @@
 
 .Problem{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -83,7 +83,7 @@
 
 .Solution{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -104,6 +104,24 @@
     img{
         width: 100%;
     }
+    .boks{
+        font-size: 5vw;
+    }
+    .Problem{
+        font-size: 5vw;
+    }
+    .Contactus{
+        font-size: 5vw;
+    }
+    .Solution{
+        font-size: 5vw;
+    }
+    .nav a{
+        font-size: 5vw;
+    }
+    .main-header{
+        font-size: 5vw;
+    }
 }
 
 @media (max-width:1000px){
@@ -123,7 +141,7 @@
         margin-left: 0;
         margin-right: 0;
     }
-    
+
 }
 .container-form {
     border-radius: 5px;
