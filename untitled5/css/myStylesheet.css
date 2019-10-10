@@ -10,7 +10,7 @@
 
 .boks{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -36,7 +36,7 @@ p{
     text-align: center;
     background: #1abc9c;
     color: white;
-    font-size: 5vw;
+    font-size: 2.5vw;
 }
 
 .nav{
@@ -47,7 +47,7 @@ p{
   padding: 10px;
 }
 .nav a {
-    font-size: 5vw;
+    font-size: 2.5vw;
   text-decoration: none;
   color: white;
   padding:5px;
@@ -69,7 +69,7 @@ p{
 
 .Contactus{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -79,7 +79,7 @@ p{
 
 .Problem{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -89,7 +89,7 @@ p{
 
 .Solution{
     font-family: "Calibri Light";
-    font-size: 5vw;
+    font-size: 2.5vw;
     margin-left: 20%;
     margin-top: 20px;
     margin-right: 20%;
@@ -110,6 +110,24 @@ p{
     img{
         width: 100%;
     }
+    .boks{
+        font-size: 5vw;
+    }
+    .Problem{
+        font-size: 5vw;
+    }
+    .Contactus{
+        font-size: 5vw;
+    }
+    .Solution{
+        font-size: 5vw;
+    }
+    .nav a{
+        font-size: 5vw;
+    }
+    .main-header{
+        font-size: 5vw;
+    }
 }
 
 @media (max-width:1000px){
@@ -129,7 +147,7 @@ p{
         margin-left: 0;
         margin-right: 0;
     }
-    
+
 }
 .container-form {
     border-radius: 5px;
