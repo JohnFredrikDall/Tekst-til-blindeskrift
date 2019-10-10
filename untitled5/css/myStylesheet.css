@@ -22,12 +22,6 @@
   margin-top:  85px;
 }
 
-p{
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    padding: 30px;
-}
 .top{
     width: 100%;
 }
@@ -184,4 +178,3 @@ input[type=submit] {
     background-size: 100%;
     margin-left: 20%;
 }
-
