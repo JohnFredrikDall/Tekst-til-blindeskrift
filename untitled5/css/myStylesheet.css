@@ -106,7 +106,7 @@ height: 100px;
 }
 .Button{
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 @media (max-width:500px){
   .nav{
