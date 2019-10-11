@@ -41,16 +41,17 @@
 
 .nav{
   position: fixed;
-  top: 0;
-  width: auto;
-  background-color: black;
+  width: 100%;
+  background-color: #128BC9;
   padding: 10px;
+  text-align: center;
 }
 .nav a {
-    font-size: 2.5vw;
+  font-size: 2.5vw;
   text-decoration: none;
   color: white;
   padding:5px;
+  margin: 10px;
 
 }
 .nav a:hover {
@@ -101,8 +102,11 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
   padding: 10px;
+  text-align: center;
+}
+.nav a{
+  margin: 0px;
 }
 }
 
@@ -183,4 +187,13 @@ input[type=submit] {
     width: 514px;
     background-size: 100%;
     margin-left: 20%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.Inquiry h1{
+  text-align: center;
+}
+.Inquiry h2{
+  text-align: center;
 }
